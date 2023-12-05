@@ -1,0 +1,53 @@
+.header {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.catalogBlack {
+  background: url('../../assets/Icons/catalogBlack.svg');
+  width: 51px;
+  height: 51px;
+  border: none;
+}
+
+.catalogWhite {
+  background: url('../../assets/Icons/catalogWhite.svg');
+  width: 51px;
+  height: 51px;
+  border: none;
+}
+
+.basketBlack {
+  background: url('../../assets/Icons/basketBlack.svg');
+  width: 42px;
+  height: 43px;
+  border: none;
+}
+
+.basketWhite {
+  background: url('../../assets/Icons/basketWhite.svg');
+  width: 42px;
+  height: 43px;
+  border: none;
+}
+
+.accountBlack {
+  background: url('../../assets/Icons/personBlack.svg');
+  width: 55px;
+  height: 55px;
+  border: none;
+}
+
+.accountWhite {
+  background: url('../../assets/Icons/personWhite.svg');
+  width: 55px;
+  height: 55px;
+  border: none;
+}

@@ -1,0 +1,131 @@
+.auth__btn {
+  background: transparent;
+  border: none;
+  color: #5A2C75;
+
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  /* 66.667% */
+  text-decoration-line: underline;
+  padding: 5px;
+  margin: auto;
+  display: block;
+}
+
+.account__information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border-radius: 9px;
+  border: 3px solid #5A2C75;
+  padding: 10px;
+  background: #FFF;
+  display: block;
+  margin: auto;
+}
+
+.account__email-span {
+  font-family: Times New Roman;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.account__name,
+.divstat {
+  font-family: Times New Roman;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 5px 0;
+  border-bottom: 1px solid #5A2C75;
+}
+
+.divstat {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #5A2C75;
+
+}
+
+.divstat__record,
+.divstat__allSumma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 24px;
+}
+
+.divstat__allSumma {
+  border-left: 1px solid #5A2C75;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.account__email {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+
+}
+
+
+
+//   History
+.history__description {
+  font-family: Times New Roman;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.cardhistory {
+  border: 1px solid #5A2C75;
+  padding: 7px;
+  background: #EFDFFA;
+  margin-bottom: 10px;
+}
+
+.history__date {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  font-family: Times New Roman;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.history__order {
+  border: 1px solid #5A2C75;
+  margin: 7px;
+  padding: 10px;
+  background: #FFF;
+  justify-content: space-between;
+  display: flex;
+  font-family: Times New Roman;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+
+.history__sale {
+  font-family: Times New Roman;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}

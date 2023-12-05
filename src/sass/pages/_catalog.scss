@@ -1,0 +1,152 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.catalog-sort {
+  background: url("../../assets/Icons/sort.svg");
+  width: 20px;
+  height: 18px;
+  border: none;
+  margin-left: 10px;
+}
+
+.catalog-btn {
+  font-family: Times New Roman;
+  font-size: 17.28px;
+  font-style: normal;
+  font-weight: 400;
+  // line-height: 57.6px;
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+  border: 1.44px solid #000;
+  background: rgba(70, 86, 161, 0.14);
+}
+
+.active {
+  font-family: Times New Roman;
+  font-size: 17.28px;
+  font-style: normal;
+  font-weight: 400;
+  // line-height: 57.6px;
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+  border: 1.44px solid #000;
+  background: #9D76AF;
+  align-items: center;
+}
+
+.title__page {
+  color: #5F4A69;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.594px;
+  /* 225.361% */
+}
+
+.catalog__sort {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.title__section {
+  color: #604D69;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 115.789% */
+}
+
+.catalog__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.catalog__manicure,
+.catalog__pedicure,
+.catalog__care {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.catalog__button {
+  width: 250px;
+  height: 50px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  background: #9D76AF;
+  border: 1px solid #000;
+  font-family: Times New Roman;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+//Card
+.cardgood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #8B699A;
+  background: #FFF;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cardgood__name {
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 5px;
+}
+
+.cardgood__basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.card__basket {
+  background: url("../../assets/Icons/basket.svg");
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.card__price {
+  color: #594762;
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 13.935px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38.71px;
+  /* 277.778% */
+}
+
+.hidden {
+  opacity: 70%;
+}
